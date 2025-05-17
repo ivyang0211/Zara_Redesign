@@ -1,0 +1,497 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.product-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-page .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3065px;
+  position: relative;
+}
+
+.product-page .rectangle {
+  width: 1440px;
+  height: 345px;
+  top: 2720px;
+  background-color: #d9d9d9;
+  position: absolute;
+  left: 0;
+}
+
+.product-page .text {
+  position: absolute;
+  top: 230px;
+  left: 351px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-page .text-wrapper {
+  position: absolute;
+  top: 279px;
+  left: 555px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .group {
+  position: absolute;
+  width: 1205px;
+  height: 42px;
+  top: 352px;
+  left: 106px;
+}
+
+.product-page .group-2 {
+  position: absolute;
+  width: 245px;
+  height: 36px;
+  top: 4px;
+  left: 962px;
+}
+
+.product-page .text-wrapper-2 {
+  position: absolute;
+  top: 9px;
+  left: 29px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .fluent-sort {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  left: 0;
+}
+
+.product-page .lsicon-down-outline {
+  top: 0;
+  left: 207px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+}
+
+.product-page .frame {
+  gap: 25px;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}
+
+.product-page .overlap-group-wrapper {
+  position: relative;
+  width: 100px;
+  height: 42px;
+}
+
+.product-page .overlap-group {
+  position: relative;
+  width: 98px;
+  height: 42px;
+}
+
+.product-page .img {
+  top: 3px;
+  left: 53px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+}
+
+.product-page .text-wrapper-3 {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .rectangle-2 {
+  width: 98px;
+  height: 42px;
+  top: 0;
+  border: 1px solid;
+  border-color: #000000;
+  position: absolute;
+  left: 0;
+}
+
+.product-page .overlap-wrapper {
+  position: relative;
+  width: 117px;
+  height: 42px;
+}
+
+.product-page .overlap {
+  position: relative;
+  width: 115px;
+  height: 42px;
+}
+
+.product-page .lsicon-down-outline-2 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 4px;
+  left: 74px;
+}
+
+.product-page .rectangle-3 {
+  position: absolute;
+  width: 115px;
+  height: 42px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-page .div-wrapper {
+  position: relative;
+  width: 117px;
+  height: 42px;
+  margin-right: -2.00px;
+}
+
+.product-page .group-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 196px;
+  top: 0;
+  left: 0;
+}
+
+.product-page .group-3 {
+  width: 1446px;
+  height: 196px;
+}
+
+.product-page .overlap-group-2 {
+  position: relative;
+  width: 1440px;
+  height: 196px;
+  background-color: #ffffff;
+}
+
+.product-page .zara-logo-svg {
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  top: 53px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.product-page .navbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 146px;
+  position: absolute;
+  top: 153px;
+  left: 106px;
+}
+
+.product-page .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-5 {
+  position: absolute;
+  top: 83px;
+  left: 1237px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-6 {
+  position: absolute;
+  top: 83px;
+  left: 1311px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-7 {
+  position: absolute;
+  top: 83px;
+  left: 1138px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .iconamoon-profile {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1143px;
+}
+
+.product-page .mdi-light-heart {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1223px;
+}
+
+.product-page .ph-bag-thin {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1298px;
+}
+
+.product-page .group-4 {
+  position: absolute;
+  width: 280px;
+  height: 43px;
+  top: 131px;
+  left: 1054px;
+}
+
+.product-page .material-symbols {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 244px;
+}
+
+.product-page .line {
+  position: absolute;
+  width: 280px;
+  height: 1px;
+  top: 42px;
+  left: 0;
+  object-fit: cover;
+}
+
+.product-page .frame-2 {
+  gap: 44px;
+  top: 450px;
+  left: 106px;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}
+
+.product-page .component {
+  position: relative;
+  width: 274px;
+  height: 503px;
+}
+
+.product-page .image {
+  position: absolute;
+  width: 274px;
+  height: 390px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.product-page .text-wrapper-8 {
+  position: absolute;
+  top: 434px;
+  left: 0;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-9 {
+  position: absolute;
+  top: 458px;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-10 {
+  position: absolute;
+  top: 486px;
+  left: 0;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-11 {
+  position: absolute;
+  top: 434px;
+  left: 235px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .mdi-light-heart-2 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  left: 248px;
+}
+
+.product-page .ellipse {
+  left: 0;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .ellipse-2 {
+  left: 28px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .ellipse-3 {
+  left: 56px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .ellipse-4 {
+  left: 84px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .frame-3 {
+  gap: 44px;
+  top: 977px;
+  left: 106px;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}
+
+.product-page .frame-4 {
+  gap: 44px;
+  top: 1504px;
+  left: 106px;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}
+
+.product-page .frame-5 {
+  gap: 44px;
+  top: 2031px;
+  left: 106px;
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+}

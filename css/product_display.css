@@ -1,0 +1,584 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.product-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-page .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 2177px;
+  position: relative;
+}
+
+.product-page .group {
+  position: absolute;
+  width: 1440px;
+  height: 196px;
+  top: 0;
+  left: 0;
+}
+
+.product-page .overlap-group-wrapper {
+  width: 1446px;
+  height: 196px;
+}
+
+.product-page .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 196px;
+  background-color: #ffffff;
+}
+
+.product-page .zara-logo-svg {
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  top: 53px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.product-page .navbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 146px;
+  position: absolute;
+  top: 153px;
+  left: 106px;
+}
+
+.product-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-2 {
+  position: absolute;
+  top: 83px;
+  left: 1237px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-3 {
+  top: 83px;
+  left: 1311px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-4 {
+  position: absolute;
+  top: 83px;
+  left: 1138px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .iconamoon-profile {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1143px;
+}
+
+.product-page .mdi-light-heart {
+  top: 41px;
+  left: 1223px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+}
+
+.product-page .ph-bag-thin {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1298px;
+}
+
+.product-page .group-2 {
+  position: absolute;
+  width: 280px;
+  height: 43px;
+  top: 131px;
+  left: 1054px;
+}
+
+.product-page .material-symbols {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 244px;
+}
+
+.product-page .line {
+  width: 280px;
+  top: 42px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+  object-fit: cover;
+}
+
+.product-page .text {
+  position: absolute;
+  top: 230px;
+  left: 351px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-page .overlap {
+  position: absolute;
+  width: 555px;
+  height: 56px;
+  top: 644px;
+  left: 775px;
+  background-color: #000000;
+}
+
+.product-page .text-wrapper-5 {
+  position: absolute;
+  top: 22px;
+  left: 227px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .img {
+  position: absolute;
+  width: 555px;
+  height: 1px;
+  top: 752px;
+  left: 775px;
+  object-fit: cover;
+}
+
+.product-page .image {
+  position: absolute;
+  width: 563px;
+  height: 708px;
+  top: 246px;
+  left: 106px;
+  background-color: #d9d9d9;
+}
+
+.product-page .text-wrapper-6 {
+  position: absolute;
+  top: 293px;
+  left: 775px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-7 {
+  position: absolute;
+  top: 775px;
+  left: 775px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .line-2 {
+  width: 555px;
+  top: 813px;
+  left: 774px;
+  position: absolute;
+  height: 1px;
+  object-fit: cover;
+}
+
+.product-page .text-wrapper-8 {
+  position: absolute;
+  top: 836px;
+  left: 774px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .mdi-light-heart-2 {
+  top: 276px;
+  left: 1298px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+}
+
+.product-page .group-3 {
+  position: absolute;
+  width: 222px;
+  height: 60px;
+  top: 355px;
+  left: 775px;
+}
+
+.product-page .text-wrapper-9 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-page .ellipse {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.product-page .group-4 {
+  position: absolute;
+  width: 402px;
+  height: 60px;
+  top: 461px;
+  left: 775px;
+}
+
+.product-page .rectangle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-page .text-wrapper-10 {
+  position: absolute;
+  top: 569px;
+  left: 775px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .overlap-2 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  top: 554px;
+  left: 1230px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.product-page .text-wrapper-11 {
+  top: 11px;
+  left: 13px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  font-size: 16px;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-12 {
+  height: 16px;
+  top: 12px;
+  left: 42px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  position: absolute;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-13 {
+  top: 10px;
+  left: 74px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  font-size: 16px;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-14 {
+  top: 766px;
+  left: 1309px;
+  font-family: "Helvetica Neue-Thin", Helvetica;
+  font-weight: 100;
+  font-size: 32px;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .line-3 {
+  width: 555px;
+  top: 874px;
+  left: 775px;
+  position: absolute;
+  height: 1px;
+  object-fit: cover;
+}
+
+.product-page .text-wrapper-15 {
+  top: 827px;
+  left: 1310px;
+  font-family: "Helvetica Neue-Thin", Helvetica;
+  font-weight: 100;
+  font-size: 32px;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 345px;
+  top: 1832px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.product-page .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 44px;
+  position: absolute;
+  top: 1141px;
+  left: 106px;
+}
+
+.product-page .component {
+  position: relative;
+  width: 274px;
+  height: 503px;
+}
+
+.product-page .image-2 {
+  position: absolute;
+  width: 274px;
+  height: 390px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.product-page .text-wrapper-16 {
+  position: absolute;
+  top: 434px;
+  left: 0;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-17 {
+  position: absolute;
+  top: 458px;
+  left: 0;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-18 {
+  position: absolute;
+  top: 486px;
+  left: 0;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .text-wrapper-19 {
+  position: absolute;
+  top: 434px;
+  left: 235px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.product-page .mdi-light-heart-3 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  left: 248px;
+}
+
+.product-page .ellipse-2 {
+  left: 0;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .ellipse-3 {
+  left: 28px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .ellipse-4 {
+  left: 56px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .ellipse-5 {
+  left: 84px;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 402px;
+  background-color: #d9d9d9;
+  border-radius: 10.5px;
+}
+
+.product-page .text-wrapper-20 {
+  position: absolute;
+  top: 1083px;
+  left: 106px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

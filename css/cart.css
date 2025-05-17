@@ -1,0 +1,653 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.cart-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cart-page .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1742px;
+  position: relative;
+}
+
+.cart-page .group {
+  position: absolute;
+  width: 1440px;
+  height: 196px;
+  top: 0;
+  left: 0;
+}
+
+.cart-page .overlap-group-wrapper {
+  width: 1446px;
+  height: 196px;
+}
+
+.cart-page .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 196px;
+  background-color: #ffffff;
+}
+
+.cart-page .zara-logo-svg {
+  position: absolute;
+  width: 133px;
+  height: 56px;
+  top: 53px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.cart-page .navbar {
+  display: inline-flex;
+  align-items: center;
+  gap: 146px;
+  position: absolute;
+  top: 153px;
+  left: 106px;
+}
+
+.cart-page .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-2 {
+  position: absolute;
+  top: 83px;
+  left: 1237px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-3 {
+  position: absolute;
+  top: 83px;
+  left: 1311px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-4 {
+  position: absolute;
+  top: 83px;
+  left: 1138px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .iconamoon-profile {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1143px;
+}
+
+.cart-page .mdi-light-heart {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1223px;
+}
+
+.cart-page .ph-bag-thin {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 41px;
+  left: 1298px;
+}
+
+.cart-page .group-2 {
+  position: absolute;
+  width: 280px;
+  height: 43px;
+  top: 131px;
+  left: 1054px;
+}
+
+.cart-page .material-symbols {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 244px;
+}
+
+.cart-page .line {
+  width: 280px;
+  height: 1px;
+  top: 42px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.cart-page .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 345px;
+  top: 1397px;
+  left: -1px;
+  background-color: #d9d9d9;
+}
+
+.cart-page .overlap {
+  position: absolute;
+  width: 750px;
+  height: 74px;
+  top: 1065px;
+  left: 106px;
+  background-color: #d9d9d9;
+}
+
+.cart-page .text-wrapper-5 {
+  position: absolute;
+  top: 27px;
+  left: 22px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #6c6c6c;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text {
+  position: absolute;
+  top: 230px;
+  left: 351px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cart-page .text-wrapper-6 {
+  position: absolute;
+  top: 245px;
+  left: 106px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .overlap-2 {
+  position: absolute;
+  width: 750px;
+  height: 693px;
+  top: 333px;
+  left: 106px;
+}
+
+.cart-page .text-wrapper-7 {
+  position: absolute;
+  top: 35px;
+  left: 22px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .p {
+  position: absolute;
+  top: 86px;
+  left: 38px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-8 {
+  position: absolute;
+  top: 151px;
+  left: 79px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-9 {
+  top: 178px;
+  left: 79px;
+  position: absolute;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-10 {
+  position: absolute;
+  width: 535px;
+  top: 205px;
+  left: 79px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cart-page .rectangle-2 {
+  position: absolute;
+  width: 750px;
+  height: 693px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.cart-page .img {
+  width: 750px;
+  height: 3px;
+  top: 124px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.cart-page .line-2 {
+  width: 750px;
+  height: 3px;
+  top: 425px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+}
+
+.cart-page .ellipse {
+  top: 148px;
+  left: 38px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #d9d9d9;
+  border-radius: 12px;
+}
+
+.cart-page .text-wrapper-11 {
+  position: absolute;
+  top: 282px;
+  left: 78px;
+  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-12 {
+  top: 309px;
+  left: 78px;
+  position: absolute;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-13 {
+  position: absolute;
+  width: 535px;
+  top: 336px;
+  left: 78px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cart-page .text-wrapper-14 {
+  position: absolute;
+  width: 75px;
+  top: 461px;
+  left: 38px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cart-page .text-wrapper-15 {
+  position: absolute;
+  width: 132px;
+  top: 485px;
+  left: 38px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cart-page .lorem-ipsum-dolor {
+  position: absolute;
+  width: 208px;
+  top: 461px;
+  left: 215px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cart-page .ellipse-2 {
+  top: 279px;
+  left: 37px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #d9d9d9;
+  border-radius: 12px;
+}
+
+.cart-page .rectangle-3 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  top: 454px;
+  left: 622px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.cart-page .text-wrapper-16 {
+  position: absolute;
+  height: 16px;
+  top: 467px;
+  left: 653px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .rectangle-4 {
+  position: absolute;
+  width: 315px;
+  height: 40px;
+  top: 609px;
+  left: 38px;
+  background-color: #000000;
+}
+
+.cart-page .text-wrapper-17 {
+  position: absolute;
+  height: 16px;
+  top: 621px;
+  left: 100px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .rectangle-5 {
+  position: absolute;
+  width: 315px;
+  height: 40px;
+  top: 609px;
+  left: 375px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.cart-page .text-wrapper-18 {
+  position: absolute;
+  height: 16px;
+  top: 621px;
+  left: 423px;
+  font-family: "Helvetica Neue-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .div-wrapper {
+  position: absolute;
+  width: 750px;
+  height: 74px;
+  top: 1168px;
+  left: 106px;
+  background-color: #d9d9d9;
+}
+
+.cart-page .overlap-3 {
+  position: absolute;
+  width: 411px;
+  height: 255px;
+  top: 333px;
+  left: 923px;
+}
+
+.cart-page .text-wrapper-19 {
+  position: absolute;
+  top: 80px;
+  left: 25px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-20 {
+  top: 80px;
+  left: 288px;
+  position: absolute;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-21 {
+  position: absolute;
+  top: 160px;
+  left: 25px;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-22 {
+  top: 160px;
+  left: 302px;
+  position: absolute;
+  font-family: "Helvetica Neue-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-23 {
+  position: absolute;
+  top: 136px;
+  left: 25px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-24 {
+  top: 136px;
+  position: absolute;
+  left: 279px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-25 {
+  top: 207px;
+  left: 25px;
+  color: #000000;
+  font-size: 16px;
+  position: absolute;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-26 {
+  top: 207px;
+  position: absolute;
+  left: 279px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .text-wrapper-27 {
+  position: absolute;
+  top: 31px;
+  left: 25px;
+  font-family: "Helvetica Neue-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.cart-page .rectangle-6 {
+  position: absolute;
+  width: 411px;
+  height: 255px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
