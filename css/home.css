@@ -1,302 +1,182 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-html,
-body {
-  margin: 0px;
+html, body {
+  margin: 0;
   height: 100%;
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
 }
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
+
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
 }
 
 .home-page {
-  background-color: #ffffff;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
 .home-page .div {
-  background-color: #ffffff;
-  overflow: hidden;
+  position: relative;
   width: 1440px;
   height: 2698px;
-  position: relative;
+  overflow: hidden;
 }
 
-.home-page .overlap {
+.coverIMG {
   position: absolute;
-  width: 1440px;
-  height: 570px;
   top: 196px;
   left: 0;
-  background-color: #d9d9d9;
+  width: 100%;
+  height: 600px;
 }
 
-.home-page .text {
+.text {
   position: absolute;
   top: 34px;
   left: 351px;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
   font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
-.home-page .rectangle {
+.title,
+.text-wrapper-10 {
   position: absolute;
-  width: 1440px;
-  height: 345px;
-  top: 2353px;
-  left: 4px;
-  background-color: #d9d9d9;
-}
-
-.home-page .text-wrapper {
-  position: absolute;
-  top: 842px;
-  left: 546px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
   font-size: 48px;
+  font-weight: 400;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
   white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.home-page .group {
-  position: absolute;
-  width: 1440px;
-  height: 196px;
-  top: 0;
-  left: 0;
+.title {
+  top: 842px;
 }
 
-.home-page .overlap-group-wrapper {
-  width: 1446px;
-  height: 196px;
+.text-wrapper-10 {
+  top: 1567px;
 }
 
-.home-page .overlap-group {
+.overlap-group {
   position: relative;
-  width: 1440px;
   height: 196px;
-  background-color: #ffffff;
+  background: #fff;
 }
 
-.home-page .zara-logo-svg {
+.zara-logo-svg {
   position: absolute;
-  width: 133px;
-  height: 56px;
   top: 53px;
   left: 106px;
+  width: 133px;
+  height: 56px;
   object-fit: cover;
 }
 
-.home-page .navbar {
-  display: inline-flex;
-  align-items: center;
-  gap: 146px;
+.navbar {
   position: absolute;
   top: 153px;
   left: 106px;
+  display: flex;
+  gap: 146px;
+  align-items: center;
 }
 
-.home-page .text-wrapper-2 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.00px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
+.navbarText,
+.heartText,
+.bagText,
+.logInText {
   font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
   white-space: nowrap;
 }
 
-.home-page .text-wrapper-3 {
-  left: 1237px;
+.logInText,
+.heartText,
+.bagText {
   position: absolute;
   top: 83px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 16px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
 }
 
-.home-page .text-wrapper-4 {
-  left: 1311px;
-  position: absolute;
-  top: 83px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
+.logInText { left: 1138px; }
+.heartText { left: 1237px; }
+.bagText   { left: 1311px; }
 
-.home-page .text-wrapper-5 {
-  position: absolute;
-  top: 83px;
-  left: 1138px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.home-page .iconamoon-profile {
+.profile,
+.favorites,
+.shoppingCart,
+.searchButton {
   position: absolute;
   width: 36px;
   height: 36px;
   top: 41px;
-  left: 1143px;
 }
 
-.home-page .mdi-light-heart {
-  position: absolute;
-  width: 36px;
-  height: 36px;
-  top: 41px;
-  left: 1223px;
-}
+.profile      { left: 1143px; }
+.favorites    { left: 1223px; }
+.shoppingCart { left: 1298px; }
+.searchButton { top: 5px; left: 248px; }
 
-.home-page .ph-bag-thin {
+.group-2 {
   position: absolute;
-  width: 36px;
-  height: 36px;
-  top: 41px;
-  left: 1298px;
-}
-
-.home-page .group-2 {
-  position: absolute;
-  width: 280px;
-  height: 43px;
   top: 131px;
   left: 1054px;
-}
-
-.home-page .material-symbols {
-  position: absolute;
-  width: 36px;
-  height: 36px;
-  top: 0;
-  left: 244px;
-}
-
-.home-page .line {
-  position: absolute;
   width: 280px;
-  height: 1px;
-  top: 42px;
-  left: 0;
-  object-fit: cover;
+  height: 43px;
 }
 
-.home-page .frame {
-  top: 941px;
-  display: inline-flex;
-  align-items: center;
-  gap: 44px;
+.line {
   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
+}
+
+.frame,
+.frame-2 {
+  position: absolute;
+  display: flex;
+  gap: 44px;
+  align-items: center;
   left: 106px;
 }
 
-.home-page .component {
+.frame { top: 941px; }
+.frame-2 { top: 1666px; }
+
+.component {
   position: relative;
   width: 274px;
   height: 503px;
 }
 
-.home-page .image {
-  position: absolute;
-  width: 274px;
+.image {
+  width: 100%;
   height: 390px;
-  top: 0;
-  left: 0;
   background-color: #d9d9d9;
 }
 
-.home-page .text-wrapper-6 {
+.text-wrapper-6,
+.text-wrapper-7,
+.text-wrapper-8,
+.text-wrapper-9 {
   position: absolute;
-  top: 434px;
-  left: 0;
-  font-family: "Helvetica Neue-Light", Helvetica;
-  font-weight: 300;
-  color: #000000;
   font-size: 12px;
-  letter-spacing: 0;
-  line-height: normal;
   white-space: nowrap;
 }
 
-.home-page .text-wrapper-7 {
-  position: absolute;
-  top: 458px;
-  left: 0;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
+.text-wrapper-6 { top: 434px; left: 0; }
+.text-wrapper-7 { top: 458px; left: 0; font-size: 16px; }
+.text-wrapper-8 { top: 486px; left: 0; font-size: 16px; font-weight: 500; }
+.text-wrapper-9 { top: 434px; left: 235px; text-align: right; }
 
-.home-page .text-wrapper-8 {
-  position: absolute;
-  top: 486px;
-  left: 0;
-  font-family: "Helvetica Neue-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.home-page .text-wrapper-9 {
-  position: absolute;
-  top: 434px;
-  left: 235px;
-  font-family: "Helvetica Neue-Light", Helvetica;
-  font-weight: 300;
-  color: #000000;
-  font-size: 12px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.home-page .img {
+.heart {
   position: absolute;
   width: 21px;
   height: 21px;
@@ -304,65 +184,18 @@ a {
   left: 248px;
 }
 
-.home-page .ellipse {
-  left: 0;
+.ellipse,
+.ellipse-2,
+.ellipse-3,
+.ellipse-4 {
   position: absolute;
   width: 21px;
   height: 21px;
   top: 402px;
-  background-color: #d9d9d9;
-  border-radius: 10.5px;
+  border-radius: 50%;
 }
 
-.home-page .ellipse-2 {
-  left: 28px;
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  top: 402px;
-  background-color: #d9d9d9;
-  border-radius: 10.5px;
-}
-
-.home-page .ellipse-3 {
-  left: 56px;
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  top: 402px;
-  background-color: #d9d9d9;
-  border-radius: 10.5px;
-}
-
-.home-page .ellipse-4 {
-  left: 84px;
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  top: 402px;
-  background-color: #d9d9d9;
-  border-radius: 10.5px;
-}
-
-.home-page .frame-2 {
-  top: 1666px;
-  display: inline-flex;
-  align-items: center;
-  gap: 44px;
-  position: absolute;
-  left: 106px;
-}
-
-.home-page .text-wrapper-10 {
-  position: absolute;
-  top: 1567px;
-  left: 475px;
-  font-family: "Helvetica Neue-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
+.ellipse   { left: 0; background-color: #000; }
+.ellipse-2 { left: 28px; background-color: #28996e; }
+.ellipse-3 { left: 56px; background-color: #ffd1f1; }
+.ellipse-4 { left: 84px; background-color: #04669e; }
