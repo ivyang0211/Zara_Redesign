@@ -97,7 +97,7 @@ a {
   white-space: nowrap;
 }
 
-.product-page .fluent-sort {
+.product-page .arrow{
   position: absolute;
   width: 24px;
   height: 24px;
@@ -337,11 +337,10 @@ a {
 
 .product-page .line {
   position: absolute;
-  width: 280px;
+  bottom: 0;
+  width: 100%;
   height: 1px;
-  top: 42px;
-  left: 0;
-  object-fit: cover;
+  background: #000;
 }
 
 .product-page .frame-2 {
@@ -435,7 +434,7 @@ a {
   width: 21px;
   height: 21px;
   top: 402px;
-  background-color: #d9d9d9;
+  background-color: #ffbcee;
   border-radius: 10.5px;
 }
 
@@ -445,7 +444,7 @@ a {
   width: 21px;
   height: 21px;
   top: 402px;
-  background-color: #d9d9d9;
+  background-color: #ffefa7;
   border-radius: 10.5px;
 }
 
@@ -455,7 +454,7 @@ a {
   width: 21px;
   height: 21px;
   top: 402px;
-  background-color: #d9d9d9;
+  background-color: #000000;
   border-radius: 10.5px;
 }
 
@@ -465,7 +464,7 @@ a {
   width: 21px;
   height: 21px;
   top: 402px;
-  background-color: #d9d9d9;
+  background-color: #8a0000;
   border-radius: 10.5px;
 }
 

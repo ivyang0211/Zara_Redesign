@@ -167,12 +167,11 @@ a {
 }
 
 .cart-page .line {
-  width: 280px;
-  height: 1px;
-  top: 42px;
-  left: 0;
   position: absolute;
-  object-fit: cover;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
 }
 
 .cart-page .rectangle {
